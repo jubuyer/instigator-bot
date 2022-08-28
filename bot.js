@@ -1,3 +1,4 @@
+// Follow documentation and add in your own twists to build your own simple bot!
 const eris = require('eris');
 
 //Client instance using bot token.
