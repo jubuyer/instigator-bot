@@ -67,50 +67,82 @@ client.on('ready', () => {
 // });
 
 client.on('messageCreate', async (message) => {
-    // alam
-    if (message.author.id == '230059296430227467') {
-        var randomNum = Math.round(Math.random())
-        if (randomNum == 0) {
-            // console.log("itcyh located")
-            message.reply({
-                content: "https://cdn.discordapp.com/attachments/915120306195140629/1027433801112096769/unknown.png"
-            })
-        }
-        else {
-            message.reply({
-                content: "https://imgur.com/ylmvSm2"
-            })
-        }
+    if (message.channel.id == '732403869484711947') {
+        // alam
+        if (message.author.id == '230059296430227467') {
+            var randomNum = Math.round(Math.random()*3)
+            if (randomNum == 0) {
 
+                message.reply({
+                    content: "https://cdn.discordapp.com/attachments/915120306195140629/1027433801112096769/unknown.png"
+                })
+            }
+            else if (randomNum == 1){
+                message.reply({
+                    content: "https://imgur.com/ylmvSm2"
+                })
+            }
+            else {
+                message.reply({
+                    content: "https://imgur.com/8SL84jm"
+                })
+            }
+            
+
+        }
+        // ankan
+        if (message.author.id == '634175426121564176') {
+
+            message.reply({
+                content: "https://imgur.com/24vQvSN"
+            })
+        }
+        // kazi
+        if (message.author.id == '194230808440078337') {
+            var randomNum = Math.round(Math.random())
+            if (randomNum == 0) {
+                message.reply({
+                    content: "https://imgur.com/MABXrRq"
+                })
+            }
+            else {
+                message.reply({
+                    content: "https://imgur.com/dWllhrc"
+                })
+            }
+
+        }
+        // sharnom
+        if (message.author.id == '702194451489226804') {
+
+            message.reply({
+                content: "https://imgur.com/iDxNyNN"
+            })
+        }
+        // jubayer
+        if (message.author.id == '403699636612890624') {
+
+            message.reply({
+                content: "https://imgur.com/qW0UBIq"
+            })
+        }
+        // rakib
+        if (message.author.id == '235835251052642315') {
+
+            message.reply({
+                content: "https://media.discordapp.net/attachments/904541827321974785/952698407665942638/hehe.gif"
+            })
+        }
+        // parthiv
+        if (message.author.id == '533462713167511553') {
+
+            message.reply({
+                content: "https://imgur.com/U3eISCP"
+            })
+        }
+        
     }
-    // ankan
-    if (message.author.id == '634175426121564176') {
-        // console.log("itcyh located")
-        message.reply({
-            content: "https://imgur.com/24vQvSN"
-        })
-    }
-    // kazi
-    if (message.author.id == '194230808440078337') {
-        // console.log("itcyh located")
-        message.reply({
-            content: "https://imgur.com/dWllhrc"
-        })
-    }
-    // sharnom
-    if (message.author.id == '702194451489226804') {
-        // console.log("itcyh located")
-        message.reply({
-            content: "https://imgur.com/iDxNyNN"
-        })
-    }
-    // jubayer
-    if (message.author.id == '403699636612890624') {
-        // console.log("itcyh located")
-        message.reply({
-            content: "https://imgur.com/qW0UBIq"
-        })
-    }
+
 
 })
 
